@@ -1,0 +1,12 @@
+SYNTHETIC SAMPLE FILE — NOT A REAL TAX FORM
+ControlFlow demo data · educational placeholder only
+
+Document type: W-8BEN (Individual) — Certificate of Foreign Status
+Sample reference fields tracked by ControlFlow's completeness check:
+  - signature: [synthetic signature placeholder]
+  - country_of_residence: [synthetic country code]
+  - tax_id: [synthetic identifier, not a real TIN]
+
+This file exists only to give ControlFlow's Document.file_ref a real,
+harmless artifact to point at. It does not contain real form content and
+must never be treated as tax guidance. See docs/security-and-limitations.md.

@@ -1,0 +1,11 @@
+SYNTHETIC SAMPLE FILE — NOT A REAL REGULATORY FORM
+ControlFlow demo data · educational placeholder only
+
+Document type: FATCA Self-Certification
+Sample reference fields tracked by ControlFlow's completeness check:
+  - signature: [synthetic signature placeholder]
+  - fatca_status: [synthetic simplified FATCA bucket, e.g. "Active NFFE"]
+
+This is a simplified educational model, not the real FATCA self-certification
+form, and must never be used for a real classification decision. See
+docs/security-and-limitations.md.

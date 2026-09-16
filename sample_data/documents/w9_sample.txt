@@ -1,0 +1,12 @@
+SYNTHETIC SAMPLE FILE — NOT A REAL TAX FORM
+ControlFlow demo data · educational placeholder only
+
+Document type: W-9 — Request for Taxpayer Identification (U.S. Person)
+Sample reference fields tracked by ControlFlow's completeness check:
+  - signature: [synthetic signature placeholder]
+  - tin: [synthetic identifier, not a real TIN]
+  - name_match: [synthetic name-match confirmation flag]
+
+This file exists only to give ControlFlow's Document.file_ref a real,
+harmless artifact to point at. It does not contain real form content and
+must never be treated as tax guidance. See docs/security-and-limitations.md.

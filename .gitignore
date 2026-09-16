@@ -1,0 +1,40 @@
+# Environment
+.env
+.env.local
+*.env.local
+
+# Python / backend
+backend/.venv/
+backend/__pycache__/
+**/__pycache__/
+*.pyc
+backend/.pytest_cache/
+backend/.mypy_cache/
+backend/.ruff_cache/
+backend/htmlcov/
+backend/.coverage
+backend/api.log
+backend/celerybeat-schedule
+# Stray output dir when seed.py runs with cwd=backend/ outside the docker
+# volume mount that redirects it to the top-level sample_data/ instead.
+backend/sample_data/
+
+# Node / frontend
+frontend/node_modules/
+frontend/dist/
+frontend/frontend.log
+
+# Playwright / e2e
+tests/e2e/node_modules/
+tests/e2e/test-results/
+tests/e2e/playwright-report/
+tests/e2e/.cache/
+
+# Seed output (regenerated on every seed run)
+sample_data/demo_scenarios.json
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/extensions.json

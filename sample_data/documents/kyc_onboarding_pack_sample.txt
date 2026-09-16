@@ -1,0 +1,12 @@
+SYNTHETIC SAMPLE FILE — NOT A REAL KYC RECORD
+ControlFlow demo data · educational placeholder only
+
+Document type: KYC Onboarding Pack
+Sample reference fields tracked by ControlFlow's completeness check:
+  - id_verification: [synthetic identity-verification confirmation]
+  - address_proof: [synthetic address-proof confirmation]
+  - source_of_funds: [synthetic source-of-funds narrative]
+
+This file exists only to give ControlFlow's Document.file_ref a real,
+harmless artifact to point at. It does not contain real identity or
+financial information. See docs/security-and-limitations.md.
